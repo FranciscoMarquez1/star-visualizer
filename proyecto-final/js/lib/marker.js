@@ -23,8 +23,11 @@ var Markers = {
         text.onclick = function(){
           if (info.style.display=="none") {
             info.style.display = "inline";
+            text.style.zindex = "100";
           }else{
             info.style.display = "none";
+            text.style.zindex = "none";
+
           }
         };
 

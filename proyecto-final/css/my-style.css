@@ -28,7 +28,15 @@ div .marker {
 }
 
 p {
-    background-color: rgba(255,165,0,0.5);
     padding: 0px 0px;
     margin: 0;
+}
+
+.marker {
+    background-color: red;
+    max-width: 340px;
+}
+
+.marker:nth-child(2){
+    font-size: 10px;
 }
